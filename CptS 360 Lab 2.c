@@ -133,6 +133,7 @@ int quit()
             quit();}
 		if(root->child->sibling){
             quit();}
+        root->child = root->child->child;
     }
     printf("Program exit\n");
     exit(0);
